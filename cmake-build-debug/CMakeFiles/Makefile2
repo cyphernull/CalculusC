@@ -60,39 +60,39 @@ CMAKE_SOURCE_DIR = /Users/eric/Desktop/CalculusC
 CMAKE_BINARY_DIR = /Users/eric/Desktop/CalculusC/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Algorithm.dir
+# Target rules for target CMakeFiles/CalculusC.dir
 
 # All Build rule for target.
-CMakeFiles/Algorithm.dir/all:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/depend
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target Algorithm"
-.PHONY : CMakeFiles/Algorithm.dir/all
+CMakeFiles/CalculusC.dir/all:
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/depend
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target CalculusC"
+.PHONY : CMakeFiles/CalculusC.dir/all
 
 # Include target in all.
-all: CMakeFiles/Algorithm.dir/all
+all: CMakeFiles/CalculusC.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Algorithm.dir/rule: cmake_check_build_system
+CMakeFiles/CalculusC.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles 3
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Algorithm.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/CalculusC.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Algorithm.dir/rule
+.PHONY : CMakeFiles/CalculusC.dir/rule
 
 # Convenience name for target.
-Algorithm: CMakeFiles/Algorithm.dir/rule
+CalculusC: CMakeFiles/CalculusC.dir/rule
 
-.PHONY : Algorithm
-
-# clean rule for target.
-CMakeFiles/Algorithm.dir/clean:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/clean
-.PHONY : CMakeFiles/Algorithm.dir/clean
+.PHONY : CalculusC
 
 # clean rule for target.
-clean: CMakeFiles/Algorithm.dir/clean
+CMakeFiles/CalculusC.dir/clean:
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/clean
+.PHONY : CMakeFiles/CalculusC.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/CalculusC.dir/clean
 
 .PHONY : clean
 

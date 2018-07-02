@@ -6,7 +6,7 @@
 #include <stdio.h>
 #include "calculus.h"
 
-double integrate(double x1, double x2, double eps, double func(double)) {
+double integrate(double x1, double x2, double eps, double (*func)(double)) {
     int i, n;
     double fx1, fx2, h, t1, p, s, x;
     double result = 0.0;

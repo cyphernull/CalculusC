@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Algorithm
+# Target rules for targets named CalculusC
 
 # Build rule for target.
-Algorithm: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Algorithm
-.PHONY : Algorithm
+CalculusC: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 CalculusC
+.PHONY : CalculusC
 
 # fast build rule for target.
-Algorithm/fast:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/build
-.PHONY : Algorithm/fast
+CalculusC/fast:
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/build
+.PHONY : CalculusC/fast
 
 calculus.o: calculus.c.o
 
@@ -129,7 +129,7 @@ calculus.o: calculus.c.o
 
 # target to build an object file
 calculus.c.o:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/calculus.c.o
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/calculus.c.o
 .PHONY : calculus.c.o
 
 calculus.i: calculus.c.i
@@ -138,7 +138,7 @@ calculus.i: calculus.c.i
 
 # target to preprocess a source file
 calculus.c.i:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/calculus.c.i
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/calculus.c.i
 .PHONY : calculus.c.i
 
 calculus.s: calculus.c.s
@@ -147,7 +147,7 @@ calculus.s: calculus.c.s
 
 # target to generate assembly for a file
 calculus.c.s:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/calculus.c.s
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/calculus.c.s
 .PHONY : calculus.c.s
 
 main.o: main.c.o
@@ -156,7 +156,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.c.o
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -165,7 +165,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.c.i
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -174,7 +174,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/main.c.s
+	$(MAKE) -f CMakeFiles/CalculusC.dir/build.make CMakeFiles/CalculusC.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -185,7 +185,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Algorithm"
+	@echo "... CalculusC"
 	@echo "... calculus.o"
 	@echo "... calculus.i"
 	@echo "... calculus.s"

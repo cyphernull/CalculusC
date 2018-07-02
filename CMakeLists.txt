@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
-project(Algorithm C)
+project(CalculusC C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Algorithm main.c calculus.c calculus.h)
+add_executable(CalculusC main.c calculus.c calculus.h)
