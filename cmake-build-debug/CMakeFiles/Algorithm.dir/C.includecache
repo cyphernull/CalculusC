@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eric/Desktop/Algorithm/calculus.c
+math.h
+-
+stdio.h
+-
+calculus.h
+/Users/eric/Desktop/Algorithm/calculus.h
+
+/Users/eric/Desktop/Algorithm/calculus.h
+
+/Users/eric/Desktop/Algorithm/main.c
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+calculus.h
+/Users/eric/Desktop/Algorithm/calculus.h
+
