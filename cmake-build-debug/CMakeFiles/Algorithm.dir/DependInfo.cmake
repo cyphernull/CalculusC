@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/eric/Desktop/Algorithm/calculus.c" "/Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/calculus.c.o"
-  "/Users/eric/Desktop/Algorithm/main.c" "/Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/main.c.o"
+  "/Users/eric/Desktop/CalculusC/calculus.c" "/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles/Algorithm.dir/calculus.c.o"
+  "/Users/eric/Desktop/CalculusC/main.c" "/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles/Algorithm.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

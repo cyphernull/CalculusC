@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eric/Desktop/Algorithm
+CMAKE_SOURCE_DIR = /Users/eric/Desktop/CalculusC
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eric/Desktop/Algorithm/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eric/Desktop/CalculusC/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Algorithm.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Algorithm.dir/flags.make
 
 CMakeFiles/Algorithm.dir/main.c.o: CMakeFiles/Algorithm.dir/flags.make
 CMakeFiles/Algorithm.dir/main.c.o: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algorithm.dir/main.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithm.dir/main.c.o   -c /Users/eric/Desktop/Algorithm/main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algorithm.dir/main.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithm.dir/main.c.o   -c /Users/eric/Desktop/CalculusC/main.c
 
 CMakeFiles/Algorithm.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm.dir/main.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eric/Desktop/Algorithm/main.c > CMakeFiles/Algorithm.dir/main.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eric/Desktop/CalculusC/main.c > CMakeFiles/Algorithm.dir/main.c.i
 
 CMakeFiles/Algorithm.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm.dir/main.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eric/Desktop/Algorithm/main.c -o CMakeFiles/Algorithm.dir/main.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eric/Desktop/CalculusC/main.c -o CMakeFiles/Algorithm.dir/main.c.s
 
 CMakeFiles/Algorithm.dir/main.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/Algorithm.dir/main.c.o.provides.build: CMakeFiles/Algorithm.dir/main.
 
 CMakeFiles/Algorithm.dir/calculus.c.o: CMakeFiles/Algorithm.dir/flags.make
 CMakeFiles/Algorithm.dir/calculus.c.o: ../calculus.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algorithm.dir/calculus.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithm.dir/calculus.c.o   -c /Users/eric/Desktop/Algorithm/calculus.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Algorithm.dir/calculus.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithm.dir/calculus.c.o   -c /Users/eric/Desktop/CalculusC/calculus.c
 
 CMakeFiles/Algorithm.dir/calculus.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm.dir/calculus.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eric/Desktop/Algorithm/calculus.c > CMakeFiles/Algorithm.dir/calculus.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/eric/Desktop/CalculusC/calculus.c > CMakeFiles/Algorithm.dir/calculus.c.i
 
 CMakeFiles/Algorithm.dir/calculus.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm.dir/calculus.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eric/Desktop/Algorithm/calculus.c -o CMakeFiles/Algorithm.dir/calculus.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/eric/Desktop/CalculusC/calculus.c -o CMakeFiles/Algorithm.dir/calculus.c.s
 
 CMakeFiles/Algorithm.dir/calculus.c.o.requires:
 
@@ -117,7 +117,7 @@ Algorithm: CMakeFiles/Algorithm.dir/main.c.o
 Algorithm: CMakeFiles/Algorithm.dir/calculus.c.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -135,6 +135,6 @@ CMakeFiles/Algorithm.dir/clean:
 .PHONY : CMakeFiles/Algorithm.dir/clean
 
 CMakeFiles/Algorithm.dir/depend:
-	cd /Users/eric/Desktop/Algorithm/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eric/Desktop/Algorithm /Users/eric/Desktop/Algorithm /Users/eric/Desktop/Algorithm/cmake-build-debug /Users/eric/Desktop/Algorithm/cmake-build-debug /Users/eric/Desktop/Algorithm/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eric/Desktop/CalculusC/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eric/Desktop/CalculusC /Users/eric/Desktop/CalculusC /Users/eric/Desktop/CalculusC/cmake-build-debug /Users/eric/Desktop/CalculusC/cmake-build-debug /Users/eric/Desktop/CalculusC/cmake-build-debug/CMakeFiles/Algorithm.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Algorithm.dir/depend
 

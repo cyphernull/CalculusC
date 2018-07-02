@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/Users/eric/Desktop/Algorithm/calculus.c
+/Users/eric/Desktop/CalculusC/calculus.c
 math.h
 -
 stdio.h
 -
 calculus.h
-/Users/eric/Desktop/Algorithm/calculus.h
+/Users/eric/Desktop/CalculusC/calculus.h
 
-/Users/eric/Desktop/Algorithm/calculus.h
+/Users/eric/Desktop/CalculusC/calculus.h
 
-/Users/eric/Desktop/Algorithm/main.c
+/Users/eric/Desktop/CalculusC/main.c
 stdio.h
 -
 stdlib.h
@@ -24,5 +24,5 @@ stdlib.h
 math.h
 -
 calculus.h
-/Users/eric/Desktop/Algorithm/calculus.h
+/Users/eric/Desktop/CalculusC/calculus.h
 

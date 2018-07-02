@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/eric/Desktop/Algorithm/cmake-build-debug"/>
+				<Option working_dir="/Users/eric/Desktop/CalculusC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/eric/Desktop/Algorithm/cmake-build-debug"/>
+				<Option working_dir="/Users/eric/Desktop/CalculusC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/eric/Desktop/Algorithm/cmake-build-debug"/>
+				<Option working_dir="/Users/eric/Desktop/CalculusC/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithm">
-				<Option output="/Users/eric/Desktop/Algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eric/Desktop/Algorithm/cmake-build-debug"/>
+				<Option output="/Users/eric/Desktop/CalculusC/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eric/Desktop/CalculusC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -52,15 +52,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Algorithm/fast">
-				<Option output="/Users/eric/Desktop/Algorithm/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/eric/Desktop/Algorithm/cmake-build-debug"/>
+				<Option output="/Users/eric/Desktop/CalculusC/cmake-build-debug/Algorithm" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/eric/Desktop/CalculusC/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,23 +73,23 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/Algorithm/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithm/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/eric/Desktop/CalculusC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/eric/Desktop/Algorithm/calculus.c">
+		<Unit filename="/Users/eric/Desktop/CalculusC/calculus.c">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="/Users/eric/Desktop/Algorithm/calculus.h">
+		<Unit filename="/Users/eric/Desktop/CalculusC/calculus.h">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="/Users/eric/Desktop/Algorithm/main.c">
+		<Unit filename="/Users/eric/Desktop/CalculusC/main.c">
 			<Option target="Algorithm"/>
 		</Unit>
-		<Unit filename="/Users/eric/Desktop/Algorithm/CMakeLists.txt">
+		<Unit filename="/Users/eric/Desktop/CalculusC/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
